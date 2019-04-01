@@ -58,3 +58,5 @@ def for_iterator(number_of_times)
   next num
   end
 end
+
+for_iterator(10)
