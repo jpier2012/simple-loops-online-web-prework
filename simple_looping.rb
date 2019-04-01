@@ -53,17 +53,17 @@ def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  (1..number_of_times).each {|num| puts phrase}
+  for num in 1..number_of_times
     puts phrase
   next num
   end
 end
 
-for_iterator(10)
-
-def each_iterator(number_of_times)
+def each_iterator2(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   phrase = "Welcome to Flatiron School's Web Development Course!"
   (1..number_of_times).each {|num| puts phrase}
 end
+
+for_iterator2(10)
