@@ -66,7 +66,4 @@ def each_iterator(number_of_times)
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   phrase = "Welcome to Flatiron School's Web Development Course!"
   (1..number_of_times).each {|num| puts phrase}
-    puts phrase
-  next num
-  end
 end
